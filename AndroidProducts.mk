@@ -1,3 +1,9 @@
+#
+# Copyright (C) 2017-2021 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 LOCAL_PATH := device/samsung/j5nlte
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/lineage_j5nlte.mk
