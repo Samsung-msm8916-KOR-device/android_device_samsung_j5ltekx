@@ -5,7 +5,7 @@
 #
 
 # Inherit from common
-include device/samsung/j5-common/BoardConfigCommon.mk
+include device/samsung/msm8916-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/j5nlte
 
