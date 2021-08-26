@@ -18,5 +18,9 @@ $(call inherit-product, device/samsung/msm8916-common/nfc/pn547/product.mk)
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+#GAPPS config
+GAPPS_VARIANT := pico
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
