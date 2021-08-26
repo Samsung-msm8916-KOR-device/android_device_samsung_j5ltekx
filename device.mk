@@ -21,6 +21,7 @@ $(call inherit-product, device/samsung/msm8916-common/nfc/pn547/product.mk)
 #GAPPS config
 GAPPS_VARIANT := pico
 GAPPS_EXCLUDED_PACKAGES += AndroidMigratePrebuilt
+GAPPS_EXCLUDED_PACKAGES := CarrierServices
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Common overlay
