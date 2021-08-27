@@ -22,7 +22,6 @@ $(call inherit-product, device/samsung/msm8916-common/nfc/pn547/product.mk)
 GAPPS_VARIANT := pico
 GAPPS_PRODUCT_PACKAGES += Youtube
 GAPPS_PRODUCT_PACKAGES += GoogleDialer
-GAPPS_PRODUCT_PACKAGES += PixelLauncher 
 GAPPS_PRODUCT_PACKAGES += Wallpapers
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
