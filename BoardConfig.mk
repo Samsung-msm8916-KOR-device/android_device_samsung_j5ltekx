@@ -15,9 +15,6 @@ TARGET_OTA_ASSERT_DEVICE := j5nlte,j5nltexx
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5nlte_eur_defconfig
 
-# NFC
-include device/samsung/msm8916-common/nfc/pn547/board.mk
-
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2181038080
 BOARD_USERDATAIMAGE_PARTITION_SIZE  := 5016350720
