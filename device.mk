@@ -38,6 +38,7 @@ GAPPS_PRODUCT_PACKAGES += CalendarGooglePrebuilt
 GAPPS_PRODUCT_PACKAGES += PrebuiltGmail
 GAPPS_PRODUCT_PACKAGES += GoogleContacts 
 GAPPS_PRODUCT_PACKAGES += Messaging 
+GAPPS_PRODUCT_PACKAGES += TrichromeLibraryGoogle
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # Common overlay
