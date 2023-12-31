@@ -1,6 +1,6 @@
-# android_device_samsung_j5nlte
+# android_device_samsung_j5ltekx
 
-## Device tree for Samsung Galaxy J5N LTE
+## Device tree for Samsung Galaxy J5 LTE 2015
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -8,8 +8,8 @@ CPU     | Qualcomm MSM8916/MSM8216 Quad-core 1.2 GHz ARM® Cortex™ A53
 CHIPSET | Qualcomm MSM8916 Snapdragon 410
 GPU     | Adreno 306
 Memory  | 1.5 GB
-Shipped Android Version | 5.1.1/6.0.1
-Storage | 8 GB
+Shipped Android Version | 5.1.1
+Storage | 16 GB
 MicroSD | Up to 256 GB
 Battery | 2600 mAh (removable)
 Dimensions | 144.8 x 72.1 x 8.6 mm

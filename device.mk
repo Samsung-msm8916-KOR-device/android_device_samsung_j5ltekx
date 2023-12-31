@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 #Inherit from vendor
-$(call inherit-product, vendor/samsung/j5nlte/j5nlte-vendor.mk)
+$(call inherit-product, vendor/samsung/j5ltekx/j5ltekx-vendor.mk)
 
 # Inherit J5 2015 device
 $(call inherit-product, device/samsung/msm8916-common/device.mk)
@@ -17,7 +17,7 @@ $(call inherit-product, device/samsung/msm8916-common/device.mk)
 # Inherit from common
 $(call inherit-product, device/samsung/j5-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/j5nlte
+LOCAL_PATH := device/samsung/j5ltekx
 
 # NFC
 $(call inherit-product, device/samsung/msm8916-common/msm8916.mk)

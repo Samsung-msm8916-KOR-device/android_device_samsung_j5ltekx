@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=j5nlte
+export DEVICE=j5ltekx
 export DEVICE_SPECIFIED_COMMON=j5-common
 export VENDOR=samsung
 
